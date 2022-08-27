@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![](https://github.com/mrxrinc/CI-CD-React/CI/badge.svg?ranch=develop&event=push)
+![CI](https://github.com/mrxrinc/CI-CD-React/actions/workflows/ci.yml/badge.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
