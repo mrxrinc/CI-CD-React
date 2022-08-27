@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mrxrinc/CI-CD-React/CI)
+![](https://github.com/mrxrinc/CI-CD-React/CI/badge.svg?ranch=develop&event=push)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
