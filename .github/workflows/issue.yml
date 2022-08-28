@@ -6,6 +6,8 @@ jobs:
   slack-message:
     runs-on: ubuntu-latest
     steps:
-      - name: send Slack message
+      - name: Echo some text
+        run: echo "Trying to send issue info to Slack"
+      - name: Send Slack message
         run: |
           curl -X POST -H 'Content-type: application/json' --data '{"text":"New issue created, <${{ github.event.issue.html_url}}| ${{ github.event.issue.title }}>"}' ${{ secrets.SLACK_WEBHOOK }}
