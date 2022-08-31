@@ -1,0 +1,14 @@
+name: Hello World
+description: Some description
+author: Mohammad
+inputs:
+  who-to-ask:
+    description: enter the name
+    required: true
+    default: Mohammad
+outputs:
+  time:
+    description: time of greeting
+runs:
+  using: "node12"
+  main: "dist/index.js"
