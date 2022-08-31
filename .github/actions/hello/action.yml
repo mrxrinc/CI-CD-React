@@ -2,7 +2,7 @@ name: Hello World
 description: Some description
 author: Mohammad
 inputs:
-  who-to-ask:
+  who-to-greet:
     description: enter the name
     required: true
     default: Mohammad
