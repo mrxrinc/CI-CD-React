@@ -9680,7 +9680,7 @@ try {
   const time = new Date();
   core.setOutput("time", time.toTimeString());
 
-  core.startGroup();
+  core.startGroup("Logging github object");
   console.log(JSON.stringify(github, null, "\t"));
   core.endGroup();
 
