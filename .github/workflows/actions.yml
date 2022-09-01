@@ -4,6 +4,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Create Issue
+        uses: ./.github/actions/issue
+        id: issue
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: My New Issue
+          body: some body text
+          assignees: | # only possible to pass string
+            mrxrinc
+            mmirzaei6789
+      - run: |
+          echo ${{ steps.issue.outputs.issue }}
       - uses: ./.github/actions/hello
         id: hello
         with:

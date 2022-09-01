@@ -1,0 +1,22 @@
+name: opens a github Issue
+author: Mohammad
+description: creates an Issue
+inputs:
+  token:
+    description: github token
+    required: true
+  title:
+    description: title of Issue
+    required: true
+  body:
+    description: body text of Issue
+    required: false
+  assignees:
+    description: who to handle this Issue
+    required: false
+outputs:
+  issue: # id of issue
+    description: the issue object as a json
+runs:
+  using: "node12"
+  main: "dist/index.js"
