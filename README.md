@@ -2,4 +2,4 @@
 
 ![CI](https://github.com/mrxrinc/CI-CD-React/actions/workflows/ci.yml/badge.svg)
 
-This Repo is just for testing some CI/CD
+This Repo is just for testing some CI/CD.
